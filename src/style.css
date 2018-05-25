@@ -1,0 +1,26 @@
+/*  */
+body {
+    text-align: center;
+    background-size: 100%;
+    color: rgb(189, 41, 132)
+}
+
+.parrafo {
+    margin-top: 5px;
+    font-family: monospace;
+    color:rgb(41, 196, 144);
+    }
+
+.div2 {
+    height: 10px;
+    color: salmon;
+}
+
+#cipherResult {
+    color: rgb(47, 102, 165)
+}
+
+#decipherResult {
+    color: rgb(47, 102, 165)
+}
+
