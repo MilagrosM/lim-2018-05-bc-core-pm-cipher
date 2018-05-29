@@ -7,7 +7,7 @@
   </head>
   <body background="abstract-art-birthday-796605.jpg"></body>
   
-      <h1>Cifrado Cesar</h1>
+      <h1>CIFRADO CESAR</h1>
       <br>
       <p class = "parrafo"><strong>El cifrado César es uno de los primeros métodos de cifrado conocidos históricamente. 
           Julio César lo usó para enviar órdenes a sus generales en los campos de batalla. Consistía 
@@ -17,29 +17,25 @@
           las coordinaciones del cumpleaños de fulan@ sin que se entere.</strong></p>      
 
       <div><strong>
-        Ingresa tu mensaje a cifrar y el numero de posiciones a recorrer
-        <br>
-        <input type="text" id = "textToCipher">
+        Ingresa tu mensaje y el numero de posiciones.
         <br>
         <br>
-        <input id="number1" type="text" style="width : 50px; height: 15px">
+        <input type="text" id = "textToCipherAndDecipher">
+        <br>
+        <br>
+        <input id="number" type="text" style="width : 50px; height: 15px">
+        <br>
+        <br>
         <input type="button" value="Cifrar" id = "cipherButton">
+        <input type="button" value="Descrifar" id = "decipherButton">
       </strong></div>
     
       <div class = "div2">Aquí verás tu texto cifrado:</div>
       <p id = "cipherResult"></p>
-      <div><strong>
-        Ingresa tu mensaje a descifrar y numero de posiciones a recorrer
-        <br>
-        <input type="text" id = "textToDecipher" >
-        <br>
-        <br>
-        <input id="number2" type="text" style="width : 50px; height: 15px">
-        <input type="button" value="Descrifar" id = "decipherButton">
-      </strong></div>
-        <div class = "div2">Aquí verás tu texto descifrado:</div>
-        <p id = "decipherResult"><strong></strong></p>
-         
+      <div class = "div2">Aquí verás tu texto descifrado:</div>
+      <p id = "decipherResult"></p>
+      
+               
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
