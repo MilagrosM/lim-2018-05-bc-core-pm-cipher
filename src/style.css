@@ -1,7 +1,6 @@
 /*  */
 body {
     text-align: center;
-    background-size: 100%;
     color: rgb(189, 41, 132)
 }
 
@@ -17,10 +16,24 @@ body {
 }
 
 #cipherResult {
-    color: rgb(47, 102, 165)
+    color: rgb(47, 102, 165);
+    background-color: brown
+   
 }
 
 #decipherResult {
-    color: rgb(47, 102, 165)
+    color: rgb(47, 102, 165);
+    
 }
 
+#block_1 {
+    display: block
+}
+
+#block_2 {
+    display: none;
+}
+
+#block_3 {
+    display: none;
+}
