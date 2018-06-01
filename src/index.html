@@ -6,47 +6,51 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
     <div id = "block_1" >
-      <h1>Descifra el mensaje oculto</h1>
       <br>
-      <p>Hola, si estas aquí es porque recibiste un mensaje cifrado y un número, ingresalos y mira lo que pasa </p>  
+      <p>Hola, si estás aquí es porque probablemente recibiste el siguiente mensaje:</p>
+      <p class = "bold">QÚUAHAL JVU UVZVAYVZ WHYH JLSLIYHY LS JBTWSLHÑVZ KL UBLZAYH TBF XBLYPKH HSPJPH</p> 
+      <p>Además de este número, el cual representa una llave de descifrado:</p>
+      <p class = "bold">33</p>
+      <p>Y te preguntarás de qué se trata, ¿un virus?, ¿me quieren hackear?; mejor cierro. Tranquil@ no tengas miedo y sigue las instrucciones.</p>  
       <br>
-      <p>1. Tu mensaje aquí:</p>
+      <p>1. Escribe el mensaje que recibiste aquí:</p>
       <input type="text" id = "textToDecipher">
       <br>
       <br>
-      <p>2. Y tu número aquí:</p>
-      <input id="offset1" type="text" style="width : 50px; height: 15px">
+      <p>2. El número aquí:</p>
+      <input id="offset1" type="text">
       <br>
       <br>
-      <p>3. Descifralo</p>
+      <p>3. Y Ahora descifralo</p>
       <input type="button" value="Descifrar" id = "decipherButton">
+      <br>
     </div>
  
     <div id = "block_2" >
       <br>
-      <br>
       <p>Shhhh... Es una fiesta sorpresa</p>
       <br>
+      
       <br>
       <p id = "decipherResult">Aquí veras tu texto descifrado</p>
       <br>
       <p>Este viernes 9 de junio del 2018 a las 8:00 pm en Calle Los Pajaritos 876 - Lima</p>
-      <p>Para confirmar tu asistencia deberás enviar un mensaje cifrado para que Alicia (que ya sabemos que es muy curiosa) 
-        no revise mi correo por casualidad y se entere de la fiesta. </p>
+      <br>
       <input type="button" value="Confirma tu asistencia" id = "confirmButton">
     </div>              
 
     <div id = "block_3" >
-      <h1>Cifra tu mensaje</h1>
+      <p>Para confirmar tu asistencia deberás enviar un mensaje cifrado con tu nombre, esto por si Alicia 
+      <br> 
+        (que ya sabemos que es muy curiosa) revisa mi correo por casualidad y se entera de la fiesta. </p>
       <br>
       <br>
       <p>1. Escribe tu mensaje de confirmacion aquí:</p>
       <input type="text" id = "textToCipher">
       <br>
       <br>
-      <span>2. Y tu número aquí (puede ser cualquiera pero te recomendamos usar 33):</span>
+      <p>2. Y tu número aquí (puede ser cualquiera pero te recomendamos usar 33):</p>
       <br>
       <br>
       <input id="offset2" type="text" style="width : 50px; height: 15px">
@@ -55,6 +59,7 @@
       <p>3. Ahora cifralo</p>
       <br>
       <input type="button" value ="Cifrar" id = "cipherButton">
+      <br>
       <div id = "cipherResult"></div>
       <p>4. Y envialo</p>
       <input type="button" value = "Enviar mensaje" id = "sendMessage" >
