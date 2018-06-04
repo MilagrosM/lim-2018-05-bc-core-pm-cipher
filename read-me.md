@@ -14,7 +14,7 @@ Tener un producto que les permita codificar y decodificar  sus mensajes de maner
 
 La aplicación web desarrollada es una herramienta accesible que ofrece una interfaz de uso intuitivo que les permite cifrar un mensaje a enviar y descifrar un mensaje recibido a través de una clave, con lo cual ellos podrían mantener sus comunicaciones de manera secreta.
 
-## Flujograma Criptonia
+## Interfaz Criptonia
 
 La idea de Criptonia partió con el siguiente diagrama de flujo: 
 
@@ -33,6 +33,7 @@ Por medio de la retroalimentación se recibió las siguientes observaciones:
 -	Tener dos ingresos de offset resulta un poco confuso por lo cual sería adecuado utilizar un solo input tanto para cifrar como para descifrar.
 -	La descripción de lo qué es Cifrado Cesar, no tiene mucha relevancia por lo cual debería ser ubicado en otra sección.
 Segunda versión de interfaz
+
 ![version2-1](https://user-images.githubusercontent.com/39382009/40922748-954129d0-67d8-11e8-9255-63375f02905c.png)
 
 Donde:
