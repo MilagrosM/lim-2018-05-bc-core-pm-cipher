@@ -7,46 +7,63 @@
   </head>
   <body>
     <header>Criptonia</header>
-    <section id = "block_1" >
-      <br>
-      <br>
-      <p>Hola, si estás aquí es porque probablemente ya sabes que celebraremos el cumpleaños de Antonia 
-        y ella no puede enterarse por nada del mundo mundial</p>
-      <p>Esta super aplicación nos ayudará a cifrar nuestros mensajes, y asi no correremos el riesgo que Antonia se entere antes de tiempo</p>
-      <p>1. Escribe tu mensaje a cifrar o descifrar aquí:</p>
-      <textarea name="cajaTexto" id="textToCipherDecipher" cols="70" rows="7" placeholder="Solo recuerda que no cifra números, puedes escribirlos en letra"></textarea>
-      <br>
-      <br>
-      <p>2. Tu llave de cifrado-descifrado aquí:</p>
-      <input id="offset" type="number" placeholder="1">
+    <!--Bloque 1-->
+    <div id = "block_1" >
       <br>
       <br>
       <br>
+      <p>Hola, si estás aquí es porque probablemente ya sabes que celebraremos el cumpleaños de Antonia y ella no puede enterarse por nada del mundo mundial.
+        <br>
+        Esta aplicación nos ayudará a cifrar y descifrar nuestros mensajes, y asi no correremos el riesgo de que Antonia se entere antes de tiempo.
+      </p>
+      <br>
+      <p class = "steps">1. Escribe tu mensaje</p>
+      <textarea name="cajaTexto" id="textToCipherDecipher" cols="80" rows="4" placeholder="Solo recuerda que no cifra números, puedes escribirlos en letra"></textarea>
+      <br>
+      <br>
+      <p class = "steps">2. Elige tu clave de cifrado</p>
+      <input id="offset" type="number" placeholder="0">
+      <br>
+      <br>
+      <p class = "steps">3. Y ahora cifra o descifra</p>
       <input type="button" value ="Cifrar" id = "cipherButton">
       <input type="button" value="Descifrar" id = "decipherButton">
       <br>
-      <div id = "cipherResult">Aquí veras tu texto cifrado</div>
-      
-      <div id = "decipherResult">Aquí veras tu texto descifrado</div>
+      <div id = "cipherResult"></div>
+      <div id = "decipherResult"></div>
       <br>
-    </section>      
-      
-      
-   <!-- <section id = "block_1" >
+      <br>
+      <br>
+      <br>
+      <!--Pie-->
+      <div id = "footer" >
+          <br> 
+          <span>Para conocer más, haz click en el botón</span> 
+          <input type="button" value="Conoce" id = "knowButton">
+          <br>
+          <br>
+      </div>
+    </div>
+
+    <!--Bloque 2-->
+    <div id = "block_2" >
+      <br>
+      <br>
+      <br>
+      <p>Esta aplicación fue desarrollada usando una criptografía de cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César,
         <br>
-        <h1>Shhhh... Es una fiesta sorpresa</h1>
+         es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto
         <br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. t provident debitis numquam deleniti neque nam dicta error!</p>
-        <br>
-        <div>
-          <ul>Fecha: 31/06/2918</ul>
-          <ul>Hora: 25:00 horas</ul>
-          <ul>Lugar: Calle Los Pajaritos 456 San Bernandino - Panem</ul>
-        </div>
-        <br>
-        <input type="button" value="Confirma tu asistencia" id = "confirmButton">
-      </section> -->
-    
+        original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. 
+      </p>
+      <br>
+      <img src="img/Cifrado-Cesar.png" alt="CaesarCipher">
+      <br>
+      <br>
+      <input type="button" value="Volver" id = "backButton">
+      <br>
+    </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
