@@ -1,5 +1,5 @@
 # Criptonia
-
+-----------
 Criptonia es una aplicación de cifrado y descifrado de mensajes que emplea un tipo de cifrado por sustitución conocido como Código Cesar. Ha sido creada para un grupo de amigos que celebrará una fiesta sorpresa para una de sus amigas, ellos desean comunicarse de manera secreta de tal forma que la cumpleañera no logre sospechar nada.  
 
 ¿Quienes son los principales usuarios del producto?
@@ -13,8 +13,9 @@ Tener un producto que les permita codificar y decodificar  sus mensajes de maner
 ¿Cómo crees que el producto que estás creando les está resolviendo sus problemas?
 
 La aplicación web desarrollada es una herramienta accesible que ofrece una interfaz de uso intuitivo que les permite cifrar un mensaje a enviar y descifrar un mensaje recibido a través de una clave, con lo cual ellos podrían mantener sus comunicaciones de manera secreta.
+
 ## Flujograma Criptonia
---------------------------
+
 La idea de Criptonia partió con el siguiente diagrama de flujo: 
 
 ![flujograma_criptonia](https://user-images.githubusercontent.com/39382009/40922237-55533d14-67d7-11e8-929f-6bd7353009b2.png)
@@ -33,11 +34,12 @@ Por medio de la retroalimentación se recibió las siguientes observaciones:
 -	La descripción de lo qué es Cifrado Cesar, no tiene mucha relevancia por lo cual debería ser ubicado en otra sección.
 Segunda versión de interfaz
 ![version2-1](https://user-images.githubusercontent.com/39382009/40922748-954129d0-67d8-11e8-9255-63375f02905c.png)
+
 Donde:
 -	Se cambió la descripción de Cifrado Cesar por una breve explicación de la finalidad de le aplicación.
 -	Se utilizaron tres cajas, la primera para recibir el texto/mensaje del usuario y las otras dos mostraran el resultado del cifrado y descifrado. Y se empleó un solo input para el offset.
 -	Se completó el algoritmo y ya no se presentaron errores en la decodificación
 -	Se mejoró la interfaz entorno a CSS.
 
-Instrucciones de acceso
-Se puede descargar la aplicación a través de GH y verlo online en GH pages.
+# Instrucciones de acceso
+Se puede descargar la aplicación a través de GitHub y verlo online en GH pages.
