@@ -42,5 +42,5 @@ Donde:
 -	Se completó el algoritmo y ya no se presentaron errores en la decodificación
 -	Se mejoró la interfaz entorno a CSS.
 
-# Instrucciones de acceso
+## Instrucciones de acceso
 Se puede descargar la aplicación a través de GitHub y verlo online en GH pages.
