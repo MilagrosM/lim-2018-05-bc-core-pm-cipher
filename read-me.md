@@ -29,7 +29,9 @@ Donde:
 -	Se empleó dos inputs tipo texto, uno para el ingreso del mensaje a cifrar y otro para el mensaje a descifrar, así como dos inputs tipo number, uno para el ingreso del offset de cifrado y otro para el offset de descifrado.
 -	Los resultados se imprimieron directamente en el documento.
 -	La funcionalidad del producto se encontraba incompleta debido a que aún no había desarrollado el algoritmo que permita ingresar texto con espacios, además que el algoritmo de descifrado presentaba errores con respecto a las ultimas letras del abecedarios, las cuales no era bien decodificadas.
-Por medio de la retroalimentación se recibió las siguientes observaciones:
+
+Por medio del feedback mi jedi y mi squad se recibió las siguientes observaciones:
+
 -	Tener dos ingresos de offset resulta un poco confuso por lo cual sería adecuado utilizar un solo input tanto para cifrar como para descifrar.
 -	La descripción de lo qué es Cifrado Cesar, no tiene mucha relevancia por lo cual debería ser ubicado en otra sección.
 Segunda versión de interfaz
